@@ -46,7 +46,7 @@ const projects = [
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{project.title}</h3>
-              <p className="text-gray-700 text-sm mt-3 h-31">
+              <p className="text-gray-700 text-sm mt-3 h-33">
                 {project.description}
               </p>
               <div className="flex flex-wrap gap-3 mt-4">
