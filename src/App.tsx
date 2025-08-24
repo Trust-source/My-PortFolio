@@ -8,7 +8,7 @@ import SocialLinks from './Components/Social';
 
 function App() {
   return (
-    <div className="flex flex-col md:w-[70%] mx-auto"> {/* Center & limit to 70% */}
+    <div className="flex flex-col md:w-[70%] mx-auto font-montserrat"> {/* Center & limit to 70% */}
       <Navbar />
       <div id='Home'> 
       <Home />
