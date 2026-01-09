@@ -23,7 +23,7 @@ function About() {
         {/* What I Do */}
         <p className="text-lg md:text-xl leading-relaxed">
           I specialize in building responsive web applications using modern frameworks like{" "}
-          <span className="font-semibold">React</span> and styling them with{" "}
+          <span className="font-semibold">React, Next.JS</span> and styling them with{" "}
           <span className="font-semibold">Tailwind CSS</span>. My approach combines clean design with
           optimal performance to deliver the best possible user experience.
         </p>
@@ -35,7 +35,7 @@ function About() {
         <div>
           <h3 className="text-2xl font-bold mb-4">Skills & Tools</h3>
           <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-            {["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Git", "Figma","Python"].map(
+            {["HTML", "CSS", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Git", "Figma","Python","Next.JS"].map(
               (skill) => (
                 <span
                   key={skill}

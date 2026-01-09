@@ -1,10 +1,22 @@
 import { Globe } from 'lucide-react';
 import FoodPorch from '../assets/FoodPorch.png';
 import Weather from '../assets/Weather.png';
+import Lucy from '../assets/Lucy.png'
+import eastern from '../assets/eastern.png'
 
 function Projects() {
 
 const projects = [
+ 
+     {
+    title: "The Lucy",
+    date: "November 2025",
+    description:
+      "Designed and developed a personal portfolio website that highlights her work, achievements, and professional journey, serving as a centralized platform for visibility and outreach.",
+    tags: ["Next.js", "Javascript", "tailwind", "Lucide-react"],
+    image: Lucy,
+    link: "https://the-lucy-james.vercel.app/",
+  },
   {
     title: "Weather App",
     date: "Oct 2024 - Jan 2025",
@@ -13,6 +25,15 @@ const projects = [
     tags: ["React.js", "Javascript", "SCSS", "Lucide-react"],
     image: Weather,
     link: "https://example.com",
+  },
+     {
+    title: "Eastern Housing",
+    date: "November 2025",
+    description:
+      "Developed a responsive real estate platform connecting property agents and tenants across Eastern Nigeria using modern web technologies. The application features fully responsive layouts, enabling users to explore available houses and facilitate lease agreements seamlessly.",
+    tags: ["Next.js", "Javascript", "tailwind", "Lucide-react"],
+    image: eastern,
+    link: "https://eastern-housing.vercel.app",
   },
   {
     title: "Food-Porch",
