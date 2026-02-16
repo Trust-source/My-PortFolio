@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex-shrink-0">
           <img
             src={folio}
-            alt="Your Name"
+            alt="Trust Femi"
             className="w-40 h-40 md:w-48 md:h-48 object-cover rounded-full shadow-md"
           />
         </div>
