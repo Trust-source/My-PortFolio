@@ -1,5 +1,4 @@
 import { Globe } from 'lucide-react';
-import FoodPorch from '../assets/FoodPorch.png';
 import Weather from '../assets/Weather.png';
 import Lucy from '../assets/Lucy.png'
 import eastern from '../assets/eastern.png'
