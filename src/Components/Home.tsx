@@ -17,9 +17,9 @@ export default function Home() {
         {/* Text Section */}
         <div className="text-center md:text-left">
           <h1 className="text-4xl font-bold text-gray-800">Trust Femi👋</h1>
-          <p className="text-gray-500 mt-2 font-medium">Frontend Web Developer</p>
+          <p className="text-gray-500 mt-2 font-medium">Web Developer</p>
           <p className="mt-4 text-gray-600 max-w-md font-medium">
-            I am a passionate frontend developer with a love for crafting
+            I am a passionate developer with a love for crafting
             beautiful, responsive, and interactive web experiences using modern technologies.
           </p>
         </div>
