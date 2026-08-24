@@ -1,12 +1,11 @@
 
-import { Github, Linkedin, Mail, MessageCircle, Globe, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, MessageCircle, Twitter } from "lucide-react";
 
 const SocialLinks = () => {
   const socials = [
-    { name: "GitHub", icon: <Github size={24} />, link: "https://github.com/yourusername" },
+    { name: "GitHub", icon: <Github size={24} />, link: "https://github.com/Trust-source" },
     { name: "LinkedIn", icon: <Linkedin size={24} />, link: "https://www.linkedin.com/in/trust-femi-70b68a317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Twitter", icon: <Twitter size={24} />, link: "https://x.com/trust_femi?t=J9uShjChw694TmOlqfvqgQ&s=08" },
-    { name: "Portfolio", icon: <Globe size={24} />, link: "https://yourportfolio.com" },
     { name: "Email", icon: <Mail size={24} />, link: "mailto:ftrust001@gmail.com" },
     { name: "Whatsapp", icon: <MessageCircle size={24} />, link: "https://wa.me/2349029288374" },
   ];
